@@ -1,0 +1,12 @@
+// Pinia store for products
+import { defineStore } from 'pinia'
+
+export const useProductsStore = defineStore('products', {
+  state: () => ({
+    // products state
+  }),
+  actions: {
+    // products actions
+  }
+})
+
